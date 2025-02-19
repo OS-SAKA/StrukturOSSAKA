@@ -7,35 +7,37 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <header>
         <h1>Struktur Pengurus OSIS 2024/2025</h1>
     </header>
 
     <main>
-        <div class="osis-container">
-            <div class="bidang" data-bidang="media">
-                <h2>Media</h2>
-                <div class="anggota-container">
-                    <ul>
+        <table class="osis-table">
+            <tr>
+                <th>Bidang</th>
+                <th>Anggota</th>
+            </tr>
+            <tr class="bidang" data-bidang="media">
+                <td>Media</td>
+                <td>
+                    <ul class="anggota-container">
                         <li class="anggota" data-proker="proker-media">Ahsan R.</li>
                         <li class="anggota" data-proker="proker-media">Fathan</li>
                     </ul>
                     <button class="lihat-proker" data-proker="proker-media">Lihat Proker</button>
-                </div>
-            </div>
-
-            <div class="bidang" data-bidang="humas">
-                <h2>Humas</h2>
-                <div class="anggota-container">
-                    <ul>
+                </td>
+            </tr>
+            <tr class="bidang" data-bidang="humas">
+                <td>Humas</td>
+                <td>
+                    <ul class="anggota-container">
                         <li class="anggota" data-proker="proker-humas">Brillian Z.</li>
                         <li class="anggota" data-proker="proker-humas">Jabbar</li>
                     </ul>
                     <button class="lihat-proker" data-proker="proker-humas">Lihat Proker</button>
-                </div>
-            </div>
-        </div>
+                </td>
+            </tr>
+        </table>
     </main>
 
     <div id="popup" class="popup">
@@ -47,6 +49,5 @@
     </div>
 
     <script src="script.js"></script>
-
 </body>
 </html>
