@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struktur OSIS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Struktur Pengurus OSIS 2024/2025</h1>
+    </header>
+
+    <main>
+        <div class="osis-container">
+            <div class="bidang" data-bidang="media">
+                <h2>Media</h2>
+                <div class="anggota-container">
+                    <ul>
+                        <li class="anggota" data-proker="proker-media">Ahsan R.</li>
+                        <li class="anggota" data-proker="proker-media">Fathan</li>
+                    </ul>
+                    <button class="lihat-proker" data-proker="proker-media">Lihat Proker</button>
+                </div>
+            </div>
+
+            <div class="bidang" data-bidang="humas">
+                <h2>Humas</h2>
+                <div class="anggota-container">
+                    <ul>
+                        <li class="anggota" data-proker="proker-humas">Brillian Z.</li>
+                        <li class="anggota" data-proker="proker-humas">Jabbar</li>
+                    </ul>
+                    <button class="lihat-proker" data-proker="proker-humas">Lihat Proker</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h3 id="popup-title"></h3>
+            <p id="popup-content"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
